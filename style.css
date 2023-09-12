@@ -1,0 +1,15 @@
+.image {
+  margin: auto !important;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px !important;
+  background-color: lightgrey !important;
+  padding: 50px !important;
+}
+
+li p {
+  text-align: center;
+}

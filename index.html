@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panduan Intalasi WebGIS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluids">
+      <h1 class="text-center mt-3 mb-5">Panduan Instalasi WebGIS</h1>
+      <div class="pertama">
+        <h5 class="mt-3 ms-3">0. Download File WebGIS</h5>
+        <li class="d-flex m-auto">
+          <p><b>Klik tombol di bawah ini</b></p>
+          <a
+            class="btn btn-primary m-auto w-50"
+            href="https://www.mediafire.com/file/jvi4hmpk4chaj8h/filesupportwebgis.rar/file"
+            >Download Here</a
+          >
+        </li>
+
+        <script>
+          function downloadFile(filePath, fileName) {
+            // Buat elemen anchor untuk menginisiasi unduhan
+            var a = document.createElement("a");
+            a.href = filePath;
+            a.download = fileName;
+            document.body.appendChild(a);
+
+            // Klik pada elemen anchor yang baru dibuat untuk memulai unduhan
+            a.click();
+
+            // Hapus elemen anchor setelah unduhan selesai
+            document.body.removeChild(a);
+          }
+        </script>
+
+        <h5 class="mt-3 ms-3">1. Download WEB Server</h5>
+        <li>
+          <p>
+            Silahkan kunjungi
+            <a href="https://laragon.org/download/index.html" target="_blank"
+              >laragon.org</a
+            >, laragon adalah sebuah web server seperti XAMPP yang di dalamnya
+            sudah meliput Apache, Nginx, MySQL
+          </p>
+        </li>
+        <li>
+          <img
+            src="assets/img/1.png"
+            style="width: 600px !important; height: 350px !important"
+            class="image"
+          />
+          <p>
+            Lalu silahkan klik download dengan mengklik
+            <b>Download Laragon - Full (173 MB)</b>
+          </p>
+        </li>
+        <li>
+          <img
+            src="assets/img/2.png"
+            style="width: 750px !important; height: 250px !important"
+            class="image"
+          />
+          <p>
+            Setelah terdowload cari hasil download, dan klik untuk menginstal
+          </p>
+        </li>
+        <li>
+          <img
+            src="assets/img/3.png"
+            style="width: 500px !important; height: 350px !important"
+            class="image"
+          />
+          <p>Setelah terinstal, silahkan klik OK</p>
+        </li>
+        <li>
+          <img
+            src="assets/img/4.png"
+            style="width: 600px !important; height: 350px !important"
+            class="image"
+          />
+          <p>Arahkan file ke Disk C</p>
+        </li>
+        <li>
+          <p>Setelah nya silahkan klik next hingga selesai</p>
+        </li>
+        <li>
+          <img
+            src="assets/img/5.png"
+            style="width: 700px !important; height: 350px !important"
+            class="image"
+          />
+          <p>Jika sudah, klik <b>Yes, restart computer now</b></p>
+        </li>
+        <li>
+          <p>Selamat laragon telah terinstal :)</p>
+        </li>
+      </div>
+      <div class="next mb-5 me-3 d-flex justify-content-end">
+        <a href="page2.html">
+          <div class="btn btn-primary">Next</div>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
